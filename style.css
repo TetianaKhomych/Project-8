@@ -1,0 +1,71 @@
+.container {
+  width: 1300px;
+  margin: 0 auto;
+  padding: 30px 0;
+  background: grey;
+  position: relative;
+  font-weight: 400;
+}
+
+.main_menu {
+  background: #c5bdab;
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+}
+
+.main_menu > li {
+  text-transform: uppercase;
+  background: pink;
+  position: relative;
+}
+
+.main_menu > li:hover,
+.second_menu > li:hover {
+  background: orange;
+}
+
+.main_menu > li a {
+  display: block;
+  padding: 10px 25px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.main_menu > li:hover .second_menu {
+  display: block;
+}
+
+.second_menu {
+  z-index: 2;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background: grey;
+}
+
+.second_menu > li {
+  background: blue;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.third_menu {
+  position: absolute;
+  top: 0;
+  right: 100%;
+  white-space: nowrap;
+  display: none;
+  background: grey;
+}
+
+.third_menu > li {
+  background: blue;
+  margin-bottom: 10px;
+  margin-right: 15px;
+}
+
+.second_menu > li:hover .third_menu {
+  display: block;
+}
