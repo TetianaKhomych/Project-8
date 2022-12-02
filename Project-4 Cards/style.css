@@ -1,0 +1,75 @@
+@import url('resret.css');
+header{
+    background: black;
+}
+.logo{
+    width:20%;
+    display: inline-block;
+    vertical-align: middle;
+}
+nav{
+    width: 60%;
+    padding-top: 2%;
+    margin-left:5%;
+    display: inline-block;
+    vertical-align: middle;
+
+}
+.nav-item{
+    color: white;
+    font-weight: 400;
+    text-decoration: none;
+    padding: 0 4% 4% 0;
+}
+.button-block{
+    display: inline-block;
+    vertical-align: bottom;
+    margin-bottom: 0.4%;
+    background-color: grey;
+    color: white;
+    font-weight: 400;
+    border:1px solid white;
+    
+}
+/* Example */
+.container {
+	width: 1200px;
+	margin: 0 auto;
+	/* background: yellow;
+	padding: 50px 0; */
+}
+.parent {
+	background: aquamarine;
+	padding: 50px 0;
+	font-size: 0;
+}
+.child {
+    text-align: center;
+	background: white;
+	vertical-align: top;
+	display: inline-block;
+	width: 300px;
+    height: 630px;
+    margin: 20px 0%;
+	font-size: 20px;
+    border: 5px solid aquamarine;
+    padding: 1%;
+}
+
+.cardTitle{
+    font-weight: 500;
+}
+.cardImage{
+    margin-top: 2%;
+    width:250px;
+    height: 375px;
+}
+.cardDiscription{
+    margin: 2% 0;
+    font-size: 17px;
+}
+.linkBtn{
+    color: grey;
+    text-decoration: none;
+    font-size: 17px;
+}
